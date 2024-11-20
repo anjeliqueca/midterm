@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
-div.header1{
-    width: 10%;
+aside{
+    display: flex;
+    justify-content: space-between;
 }
