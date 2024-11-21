@@ -1,8 +1,85 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: #f6efe2;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+header.top{
+    box-sizing: content-box;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #e5d3c8;
+    width: 100%;
+}
+div.header0{
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    padding: 0 20px;
+}
+div.header1{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    width: 25%;
+}
+div.header2{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 1000px;
+}
+nav.header{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 0 0 auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    width: 1000px;
+}
+nav ul{
+    display: flex;
+    width: 45%;
+    text-align: right;
+    justify-content: flex-end;
+}
+nav ul li{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    font-size: large;
+    justify-content: flex-end;
+    flex: auto;
+}
+
+a.logo{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img.logo{
+    display: block;
+    width: 50%;
+}
+
 aside{
     display: flex;
     justify-content: space-between;
