@@ -92,10 +92,29 @@ div.left, div.middle, div.right{
     min-width: 0;
     max-width: 100%;
 }
+
+a.musings, a.research, a.work{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img.musings, img.research, img.work{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 75%;
+}
+
 main{
     box-sizing: border-box;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     padding: 2%;
 }
@@ -116,7 +135,7 @@ div.mainright{
     align-items: center;
     margin: 2%;
     padding: 2%;
-    flex: auto;
+    width: 75%;
 }
 header.bio{
     display: flex;
@@ -124,10 +143,11 @@ header.bio{
     text-align: center;
     align-items: center;
     height: 100%;
-    width: 75%;
+    width: 100%;
     flex-direction: column;
     margin: 1%;
     padding: 1%;
+    flex: 0 0 auto;
 }
 div.bioname{
     box-sizing: border-box;
@@ -139,6 +159,7 @@ div.bioname{
     flex: 0 0 auto;
 }
 h2{
+    box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
     text-align: left;
