@@ -163,7 +163,8 @@ h2{
     display: flex;
     justify-content: flex-start;
     text-align: left;
-    line-height: 1.5em;
+    letter-spacing: .25em;
+    line-height: 2em;
     margin: 1%;
     padding: 1%;
     flex: 0 0 auto;
@@ -182,6 +183,7 @@ p{
     justify-content: flex-start;
     text-align: left;
     align-items: flex-start;
+    letter-spacing: .1em;
     line-height: 1.5em;
     width: 75%;
     margin: 1%;
