@@ -74,7 +74,7 @@ a:link{
     text-decoration: none;
 }
 a:hover{
-    color: #71a3c7;
+    color: #748ea0;
 }
 
 a.logo{
@@ -260,7 +260,7 @@ a.footer-nav-group-item:link{
 }
 a.footer-nav-group-item:hover{
     text-decoration: none;
-    color: #71a3c7;
+    color: #316789;
 }
 div.copyright{
     box-sizing: border-box;
